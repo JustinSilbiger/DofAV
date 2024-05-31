@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerFlex {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.textContainer p {
+  margin: 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+.textContainer p:first-child {
+  font-weight: bold;
+}
+
+.textContainer p:last-child {
+  font-style: italic;
+}
+
+
+
+.main {
+  border: 1px solid #ccc;
+  background-color: #b8b7b7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.main p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.main img {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.main table {
+  border: 1px solid #ccc;
+  margin-bottom: 3rem;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.main th {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.main td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  background-color: #333;
+  padding: 10px;
+  width: 200px; 
+  height: 300px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  background-color: #777777;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #000000;
+}
+
+
+.nav {
+  background-color: #333333;
+  padding: 1rem;
+  color:#fff;
+
+}
+
+nav {
+    display: inline;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 2rem;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    color:#fff;
+
+  }
+
+  nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  footer {
+    margin: 0;
+    background-color: #333333; /* Dark grayscale background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem;
+  }
+  
